@@ -1,0 +1,52 @@
+/* .header {
+
+} */
+
+.header__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.header__link-logo {
+  text-decoration: none;
+}
+
+.header__logotype {
+  display: block;
+}
+
+.header__get {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 52px;
+  color: #FFFFFF;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+  padding: 0px 40px;
+  text-decoration: none;
+}
+
+.header__login {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+  color: #424551;
+  position: relative;
+}
+
+.header__login::before {
+  content: '';
+  background-image: url(../../Assets/image/person.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;  
+  left: -25px;
+  width: 25px;
+  height: 25px;
+}

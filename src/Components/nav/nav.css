@@ -1,0 +1,23 @@
+.novalidate {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0;
+}
+
+.novalidate__list {
+  list-style-type: none;
+}
+
+.novalidate__list  {
+  margin-right: 20px;
+}
+
+.novalidate__link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+  color: #424551;
+  text-decoration: none;
+}
